@@ -4,6 +4,8 @@
 
 extern crate libc;
 
+extern crate libressl_static;
+
 #[cfg(target_os = "nacl")]
 extern crate libressl_pnacl_sys;
 
